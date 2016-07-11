@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>File Metadata Microservice</title>
+		
+		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="well main-div text-center">
+				<h1 class="my-title">File Metadata Microservice</h1>
+				<form action="/get-file-size" method="post" enctype="multipart/form-data" class="form-inline">
+				    <div class="form-group">
+				        <input type="file" id="fileupload" placeholder="File" name="userFile">
+				    </div>
+				    <div class="form-group">
+				        <input type="submit" name="submit"/>
+				    </div>
+				</form>
+				<div class="my-footer"><h4>Made by <a href="https://codepen.io/Tylenis/full/ONzmBX/" class="my-logo" target="_blank">Nerijus</a></h4></div>
+			</div>
+		</div>
+	</body>
+</html>
